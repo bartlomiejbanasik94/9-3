@@ -5,8 +5,8 @@ console.log(animal);
 
 var textAfter = text.replace('Velociraptor', animal);
 // console.log(textAfter);
-var lenghtOfText = textAfter.lenght;
-console.log(lenghtOfText);
+var lengthOfText = textAfter.length;
+console.log(lengthOfText);
 
-var halfText = textAfter.substr(0,lenghtOfText); //tak działa ale jak wezmę lenghtOfText/2 albo spróbuję go wypisać w logu konsoli to daje undefined
+var halfText = textAfter.substr(0,lengthOfText/2); //tak działa ale jak wezmę lenghtOfText/2 albo spróbuję go wypisać w logu konsoli to daje undefined
 console.log(halfText);
